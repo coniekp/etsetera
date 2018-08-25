@@ -1,0 +1,2 @@
+# etsetera
+Etsy store helper
