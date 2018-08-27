@@ -1,0 +1,132 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+button {
+	margin: 8px 4px;
+	padding: 8px;
+	min-height: 36px;
+	min-width: 120px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f9d140;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-weight: bold;
+	font-size: 10pt;
+	color: white;
+}
+
+button:hover {
+	background-color: 
+	color: ;
+}
+
+button.edit,
+button.cancel{
+	background-color: #ff7581;
+	color: white;
+}
+
+button.review {
+	background-color: #8fcc8c;
+	color: white;
+}
+
+button.save {
+	background-color: #7ec4ea ;
+	color: white ;
+}
+
+button.post {
+	background-color: #8fcc8c;
+	color: white;
+}
+
+select,
+input {
+	height: 48px;
+	margin: 8px 4px;
+	border-radius: 5px;
+	border: 1px solid #a09e93;
+	background: white;
+	font-size: 12pt;
+	color: #a09e93;
+}
+
+label {
+	color: #514f3a;
+	padding: 8px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+}
+
+
+
+#app {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
+.navigation {
+	height:	60px;
+	width: 100%;
+	margin-top: 48px;
+	background-color: #ff7581;
+	color: #ffe035;
+}
+
+.logo {
+	margin-left: 84px;
+	font-size: 20pt;
+	line-height: 2;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.small-panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 10% auto;
+	width: 36%;
+}
+
+.full-panel {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.message {
+	min-height: 100px;
+	line-height: 2;
+	font-size: 16pt;
+}
+
+.details-heading {
+	width: 100%;
+	border-left: none;
+	border-right: none;
+	border: 1px solid;
+}
+
+
+
+
+
+
+	
